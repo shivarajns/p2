@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: wheat;
+    height: 60em;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+.background{
+    border: 10em solid rgb(81, 147, 255);
+    border-radius: 10em;
+    position: relative;
+}
+.container img{
+    width:15em;
+    position: absolute;
+}
+.background{
+    content: "";
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce{
+    0%,100%{
+        top: 0px;
+    }
+    50%{
+        top: 20px;
+    }
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 20em;
+    border: 10em solid white;
+    border-radius: 30px;
+    z-index: -1;
+    margin-top: 18em;
+    animation: back 3s ease;
+}
+@keyframes back{
+    0% {
+        margin-top: -24em;
+    }
+}
+.about{
+    position: absolute;
+    margin-top: 4em;
+    justify-content: center;
+    align-items: center;
+    animation: erase 3s ease;
+    color: rgba(19, 15, 15, 0.733);
+}
+
+@keyframes erase {
+    0% {
+        font-size: 0em;
+    }
+    50%{
+        font-size: 0em;
+    }
+}
+.name{
+    margin-top: 3em;
+    font-weight: bolder;
+    font-size: 3em;
+    padding: 20px;
+    text-align: center;
+    color: rgba(19, 15, 15, 0.733);
+}
+.bio{
+    width: 30em;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgba(19, 15, 15, 0.733);
+}
