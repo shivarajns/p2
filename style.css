@@ -6,7 +6,7 @@
 }
 body{
     background-color: wheat;
-    height: 60em;
+    height: 160em;
 }
 .container{
     display: flex;
@@ -133,4 +133,70 @@ body{
 .back1 img{
     width: 55px;
     background-color: white;
+}
+.container2{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.back2{
+    position: absolute;
+    border: 30px solid white;
+    border-radius: 30px;
+    margin-left: 15px;
+    width: 200px;
+
+}
+.back2 p{
+    text-align: center;
+    background-color: white;
+    margin: -2px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(19, 15, 15, 0.733);
+}
+.bar{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+    margin-left: 91px;
+}
+.html{
+    border: 30px solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 60px;
+    width: 100px;
+    
+}
+.css{
+   border: 30px solid white;
+   background-color: white;
+   text-align: center;
+   border-radius: 20px;
+   border-width: 31px;
+   margin-right: 60px;
+   width: 105px;
+}
+.python{
+    border: 30px solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 60px;
+    width: 100px;
+    
+}
+.c{
+    border: 30px solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 60px;
+    width: 100px;
+    
 }
